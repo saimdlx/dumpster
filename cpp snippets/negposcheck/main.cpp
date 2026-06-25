@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+//i saw some shit like this in a jetbrains video and felt like implementing it myself. turn your brain off and code kinda question.
 
+int main(){
 
     //exhaust user inputs until zero is pressed, return primary numerical counts
     int pos = 0;

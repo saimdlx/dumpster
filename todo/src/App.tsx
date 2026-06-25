@@ -36,7 +36,7 @@ export function App() {
     <div className="todo-app">
       <h1>a todo app</h1>
       <TodoForm addTodo={addTodo}/>
-      <TodoList todos={todos} toggleComplete={toggleComplete}/>
+      <TodoList todos={todos} toggleComplete={toggleComplete} editTodo={editTodo}/>
     </div>
   );
 };
