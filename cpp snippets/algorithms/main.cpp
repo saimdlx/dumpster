@@ -52,7 +52,7 @@ int binarySearch(){
     int right = sizeof(arr)/sizeof(arr[0]);
     int mid = 0;
     int target = 17;
-    while (left <= right){ 
+    while (left <= right){
         // fuck up: didn't reinit mid value after entering while loop, ran infinitely before i asked google.
         int mid = left + (right - left) / 2;
         if (arr[mid] == target){
